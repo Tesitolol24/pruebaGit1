@@ -7,5 +7,6 @@ public class Main {
         System.out.println(Kenworth.getDatosBasicosVehiculo());
         System.out.println(Kenworth.getDatosAvanzadosVehiculo());
         System.out.println(Kenworth.montarCarga());
+        System.out.println(Kenworth.bajarCarga());
     }
 }
