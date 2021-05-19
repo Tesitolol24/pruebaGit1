@@ -99,9 +99,9 @@ public abstract class Automovil {
     }
 
     public String getDatosAvanzadosVehiculo(){
-        return "El automovil es: "+nombreVehiculo+" de la marca: "+ marcaVehiculo +
-                "su propietario es: "+nombrePropietario+ " en su interior tiene: "+asientosDisponibles+
-                " asientos disponibles, tiene un peso de: "+ pesoVehiculo +", tiene una cantidad de ruedas de: "+ numeroDeRuedas+
+        return "El automovil es: "+nombreVehiculo+", de la marca: "+ marcaVehiculo +
+                ", su propietario es: "+nombrePropietario+ ", en su interior tiene: "+asientosDisponibles+
+                ", asientos disponibles, tiene un peso de: "+ pesoVehiculo +", tiene una cantidad de ruedas de: "+ numeroDeRuedas+
                 ", tiene una cantidad de espejos de: "+ numeroDeEspejos+ ", tiene una cantidad de puertas de: "+numeroDePuertas;
     }
 }
